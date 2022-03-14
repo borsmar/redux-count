@@ -4,7 +4,7 @@ import {
   decrement,
   increment,
   reset,
-} from "./actions/index";
+} from "./actions/actions";
 
 function App() {
   const counter = useSelector((state) => state.counter);
